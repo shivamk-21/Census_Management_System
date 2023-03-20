@@ -1,0 +1,42 @@
+CREATE TABLE admin ( 
+username varchar(30), 
+password varcahr(20) 
+);
+CREATE TABLE AADHAR( 
+UID int primary key, 
+first_name varchar(20), 
+middle_name varchar(20), 
+last_name varchar(20), 
+father_firstname varchar(20), 
+father_middlename varchar(20), 
+father_lastname varchar(20), 
+mother_firstname varchar(20), 
+mother_middlename varchar(20), 
+mother_lastname varchar(20), 
+address_house varchar(30), 
+address_street varchar(30), 
+address_city varchar(30), 
+address_state varchar(30), 
+address_PIN varchar(30), 
+gender varchar(6), 
+mobile int, 
+DOB date 
+);
+CREATE TABLE entries (reg_no INT PRIMARY KEY,
+ birthplace varchar(30), 
+ religion varchar(20), 
+ caste varchar(20), 
+ disability varchar(20), 
+ matrimonial_status varchar(10), 
+ mariage_year INT, 
+ no_family_members INT, 
+ litterate BOOLEAN, 
+ highest_education varchar(30), 
+ language_1 varchar(20), 
+ language_2 varchar(20), 
+ language_3 varchar(20), 
+ economic_status BOOLEAN, 
+ occupation varchar(30), 
+ mode_of_travel varchar(30), 
+ income INT, 
+ uid int );
